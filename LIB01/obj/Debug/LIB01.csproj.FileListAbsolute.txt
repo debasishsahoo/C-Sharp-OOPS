@@ -1,0 +1,6 @@
+D:\.netprojects\DotNetOOP\LIB01\bin\Debug\LIB01.dll
+D:\.netprojects\DotNetOOP\LIB01\bin\Debug\LIB01.pdb
+D:\.netprojects\DotNetOOP\LIB01\obj\Debug\LIB01.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\LIB01\obj\Debug\LIB01.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\LIB01\obj\Debug\LIB01.dll
+D:\.netprojects\DotNetOOP\LIB01\obj\Debug\LIB01.pdb

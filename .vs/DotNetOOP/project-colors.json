@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "53472052-e709-4aea-99b0-05b97507f7a5": {
+      "ProjectGuid": "53472052-e709-4aea-99b0-05b97507f7a5",
+      "DisplayName": "DotNetOOP",
+      "ColorIndex": 0
+    },
+    "f5e57ab3-6bb0-4b4a-a074-a8178ed6e804": {
+      "ProjectGuid": "f5e57ab3-6bb0-4b4a-a074-a8178ed6e804",
+      "DisplayName": "1.DataType",
+      "ColorIndex": 1
+    },
+    "118f150c-f16b-4e76-bd74-0376853da8d6": {
+      "ProjectGuid": "118f150c-f16b-4e76-bd74-0376853da8d6",
+      "DisplayName": "2.ConsoleApp",
+      "ColorIndex": 2
+    },
+    "bfc89b6a-e78b-47fa-b1ea-09838b2abd71": {
+      "ProjectGuid": "bfc89b6a-e78b-47fa-b1ea-09838b2abd71",
+      "DisplayName": "3.OppIntro",
+      "ColorIndex": 3
+    },
+    "3fd514df-aec6-426e-b1ba-b0901a248a48": {
+      "ProjectGuid": "3fd514df-aec6-426e-b1ba-b0901a248a48",
+      "DisplayName": "4.ConstractorIntro",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "bffe8339-f1a3-471e-93e9-87bfc48e706b": {
+      "ProjectGuid": "bffe8339-f1a3-471e-93e9-87bfc48e706b",
+      "DisplayName": "5.AcessSpecifiers",
+      "ColorIndex": 5
+    },
+    "475cbcce-e632-4cbb-8093-b07294170b11": {
+      "ProjectGuid": "475cbcce-e632-4cbb-8093-b07294170b11",
+      "DisplayName": "LIB01",
+      "ColorIndex": 6
+    },
+    "50d2a2bb-9ce0-4b2f-922e-53c828403110": {
+      "ProjectGuid": "50d2a2bb-9ce0-4b2f-922e-53c828403110",
+      "DisplayName": "LIB02",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

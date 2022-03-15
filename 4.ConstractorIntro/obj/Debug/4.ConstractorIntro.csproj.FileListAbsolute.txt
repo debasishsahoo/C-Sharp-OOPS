@@ -1,0 +1,8 @@
+D:\.netprojects\DotNetOOP\4.ConstractorIntro\bin\Debug\4.ConstractorIntro.exe.config
+D:\.netprojects\DotNetOOP\4.ConstractorIntro\bin\Debug\4.ConstractorIntro.exe
+D:\.netprojects\DotNetOOP\4.ConstractorIntro\bin\Debug\4.ConstractorIntro.pdb
+D:\.netprojects\DotNetOOP\4.ConstractorIntro\obj\Debug\4.ConstractorIntro.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\4.ConstractorIntro\obj\Debug\4.ConstractorIntro.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\4.ConstractorIntro\obj\Debug\4.ConstractorIntro.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\4.ConstractorIntro\obj\Debug\4.ConstractorIntro.exe
+D:\.netprojects\DotNetOOP\4.ConstractorIntro\obj\Debug\4.ConstractorIntro.pdb

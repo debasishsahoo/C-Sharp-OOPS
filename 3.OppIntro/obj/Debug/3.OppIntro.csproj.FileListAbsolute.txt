@@ -1,0 +1,7 @@
+D:\.netprojects\DotNetOOP\3.OppIntro\bin\Debug\3.OppIntro.exe.config
+D:\.netprojects\DotNetOOP\3.OppIntro\bin\Debug\3.OppIntro.exe
+D:\.netprojects\DotNetOOP\3.OppIntro\bin\Debug\3.OppIntro.pdb
+D:\.netprojects\DotNetOOP\3.OppIntro\obj\Debug\3.OppIntro.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\3.OppIntro\obj\Debug\3.OppIntro.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\3.OppIntro\obj\Debug\3.OppIntro.exe
+D:\.netprojects\DotNetOOP\3.OppIntro\obj\Debug\3.OppIntro.pdb

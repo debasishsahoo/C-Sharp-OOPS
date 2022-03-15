@@ -1,0 +1,8 @@
+D:\.netprojects\DotNetOOP\DataType\bin\Debug\DataType.exe.config
+D:\.netprojects\DotNetOOP\DataType\bin\Debug\DataType.exe
+D:\.netprojects\DotNetOOP\DataType\bin\Debug\DataType.pdb
+D:\.netprojects\DotNetOOP\DataType\obj\Debug\1.DataType.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\DataType\obj\Debug\1.DataType.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\DataType\obj\Debug\1.DataType.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\DataType\obj\Debug\DataType.exe
+D:\.netprojects\DotNetOOP\DataType\obj\Debug\DataType.pdb

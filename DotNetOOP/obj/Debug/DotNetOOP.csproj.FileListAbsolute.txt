@@ -1,0 +1,8 @@
+D:\.netprojects\DotNetOOP\DotNetOOP\bin\Debug\DotNetOOP.exe.config
+D:\.netprojects\DotNetOOP\DotNetOOP\bin\Debug\DotNetOOP.exe
+D:\.netprojects\DotNetOOP\DotNetOOP\bin\Debug\DotNetOOP.pdb
+D:\.netprojects\DotNetOOP\DotNetOOP\obj\Debug\DotNetOOP.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\DotNetOOP\obj\Debug\DotNetOOP.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\DotNetOOP\obj\Debug\DotNetOOP.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\DotNetOOP\obj\Debug\DotNetOOP.exe
+D:\.netprojects\DotNetOOP\DotNetOOP\obj\Debug\DotNetOOP.pdb

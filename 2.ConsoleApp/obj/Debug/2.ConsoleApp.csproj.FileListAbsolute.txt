@@ -1,0 +1,7 @@
+D:\.netprojects\DotNetOOP\2.ConsoleApp\bin\Debug\2.ConsoleApp.exe.config
+D:\.netprojects\DotNetOOP\2.ConsoleApp\bin\Debug\2.ConsoleApp.exe
+D:\.netprojects\DotNetOOP\2.ConsoleApp\bin\Debug\2.ConsoleApp.pdb
+D:\.netprojects\DotNetOOP\2.ConsoleApp\obj\Debug\2.ConsoleApp.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\2.ConsoleApp\obj\Debug\2.ConsoleApp.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\2.ConsoleApp\obj\Debug\2.ConsoleApp.exe
+D:\.netprojects\DotNetOOP\2.ConsoleApp\obj\Debug\2.ConsoleApp.pdb

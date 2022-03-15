@@ -1,0 +1,2 @@
+D:\.netprojects\DotNetOOP\LIB02\obj\Debug\LIB02.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\LIB02\obj\Debug\LIB02.csproj.CoreCompileInputs.cache
