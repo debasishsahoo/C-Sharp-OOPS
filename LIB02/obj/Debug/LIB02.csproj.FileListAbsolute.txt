@@ -1,2 +1,9 @@
 D:\.netprojects\DotNetOOP\LIB02\obj\Debug\LIB02.csproj.AssemblyReference.cache
 D:\.netprojects\DotNetOOP\LIB02\obj\Debug\LIB02.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\LIB02\bin\Debug\LIB02.dll
+D:\.netprojects\DotNetOOP\LIB02\bin\Debug\LIB02.pdb
+D:\.netprojects\DotNetOOP\LIB02\bin\Debug\LIB01.dll
+D:\.netprojects\DotNetOOP\LIB02\bin\Debug\LIB01.pdb
+D:\.netprojects\DotNetOOP\LIB02\obj\Debug\LIB02.csproj.CopyComplete
+D:\.netprojects\DotNetOOP\LIB02\obj\Debug\LIB02.dll
+D:\.netprojects\DotNetOOP\LIB02\obj\Debug\LIB02.pdb

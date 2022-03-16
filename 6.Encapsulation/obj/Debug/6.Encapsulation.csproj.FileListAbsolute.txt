@@ -1,0 +1,8 @@
+D:\.netprojects\DotNetOOP\6.Encapsulation\bin\Debug\6.Encapsulation.exe.config
+D:\.netprojects\DotNetOOP\6.Encapsulation\bin\Debug\6.Encapsulation.exe
+D:\.netprojects\DotNetOOP\6.Encapsulation\bin\Debug\6.Encapsulation.pdb
+D:\.netprojects\DotNetOOP\6.Encapsulation\obj\Debug\6.Encapsulation.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\6.Encapsulation\obj\Debug\6.Encapsulation.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\6.Encapsulation\obj\Debug\6.Encapsulation.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\6.Encapsulation\obj\Debug\6.Encapsulation.exe
+D:\.netprojects\DotNetOOP\6.Encapsulation\obj\Debug\6.Encapsulation.pdb
