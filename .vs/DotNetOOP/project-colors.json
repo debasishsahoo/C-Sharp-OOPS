@@ -45,7 +45,22 @@
       "ProjectGuid": "50d2a2bb-9ce0-4b2f-922e-53c828403110",
       "DisplayName": "LIB02",
       "ColorIndex": 7
+    },
+    "a4c77978-c1b8-40ed-93ac-72a7f8992b8c": {
+      "ProjectGuid": "a4c77978-c1b8-40ed-93ac-72a7f8992b8c",
+      "DisplayName": "6.Encapsulation",
+      "ColorIndex": 8
+    },
+    "a395c87f-fb23-40d2-86cd-16c84fbaf645": {
+      "ProjectGuid": "a395c87f-fb23-40d2-86cd-16c84fbaf645",
+      "DisplayName": "7.AbstractionsDemo",
+      "ColorIndex": 9
+    },
+    "00dd9038-67c0-4edd-9796-5e1bc282fbcc": {
+      "ProjectGuid": "00dd9038-67c0-4edd-9796-5e1bc282fbcc",
+      "DisplayName": "8.Inheritance",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 11
 }

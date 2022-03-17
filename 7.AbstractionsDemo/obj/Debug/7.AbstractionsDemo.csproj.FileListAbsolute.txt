@@ -1,0 +1,8 @@
+D:\.netprojects\DotNetOOP\7.AbstractionsDemo\obj\Debug\7.AbstractionsDemo.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\7.AbstractionsDemo\obj\Debug\7.AbstractionsDemo.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\7.AbstractionsDemo\obj\Debug\7.AbstractionsDemo.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\7.AbstractionsDemo\bin\Debug\7.AbstractionsDemo.exe.config
+D:\.netprojects\DotNetOOP\7.AbstractionsDemo\bin\Debug\7.AbstractionsDemo.exe
+D:\.netprojects\DotNetOOP\7.AbstractionsDemo\bin\Debug\7.AbstractionsDemo.pdb
+D:\.netprojects\DotNetOOP\7.AbstractionsDemo\obj\Debug\7.AbstractionsDemo.exe
+D:\.netprojects\DotNetOOP\7.AbstractionsDemo\obj\Debug\7.AbstractionsDemo.pdb
