@@ -89,7 +89,7 @@ namespace _8.Inheritance
     #endregion
 
     #region Multilevel and Hiearchical Inheritance 
-//# Student , #Teaching stuff, #Non-Teaching staff 
+    //# Student , #Teaching stuff, #Non-Teaching staff 
     //class Person
     //{
     //    int id;
@@ -153,40 +153,206 @@ namespace _8.Inheritance
     //    }
     //}
 
-    public class Address {
-        public string RoadNo,city, state, zipCode;
+    #region HAS-A
+    //public class Address {
+    //    public string RoadNo,city, state, zipCode;
 
-        public Address(string RoadNo, string city, string state, string zipCode) {
-        this.RoadNo = RoadNo;
-        this.city = city;
-        this.state = state;
-        this.zipCode = zipCode;
-        }
+    //    public Address(string RoadNo, string city, string state, string zipCode) {
+    //    this.RoadNo = RoadNo;
+    //    this.city = city;
+    //    this.state = state;
+    //    this.zipCode = zipCode;
+    //    }
 
+    //}
+    //public class Employee {
+
+    //    public int id;
+    //    public string name;
+    //    public Address address;// Emp HAS-A Address
+
+    //    public Employee(int id,string name,Address address) {
+    //        this.id = id;
+    //        this.name = name;
+    //        this.address = address;
+    //    }
+    //    public void Display() {
+    //        Console.WriteLine(id+" "+name+" "+ address.RoadNo+" "+address.city+" "+address.state+" "+address.zipCode);
+    //    }
+    //}
+    //public class Program {
+    //    public static void Main(string[] args) {
+    //        Address a1 = new Address("11","kolkata","wb","704646");
+    //        Employee e1 = new Employee(1,"Deb", a1);
+    //        e1.Display();
+    //        Console.ReadKey();
+    //    }
+
+
+    //}
+    #endregion
+
+    #region Interface
+    //interface is a Fully un-implemented Class
+    //used for declearing a set of operations of an object.
+    //it is a pure abstract class which allows to define abstract methods
+
+    //public interface Example
+    //{
+    //    void Display();//only abstract method
+    //}
+
+    //An Inteface can contain
+    //1.Abstarct Methods
+    //2.Properties
+    //3.Indexes
+    //4.Events
+
+
+    //An Inteface cannot contain
+    //1.Non-Abstarct Methods
+    //2.Data-fields
+    //3.Constructors
+    //4.Destructors
+
+    //public interface A 
+    //{
+    //    void method1();
+    //    void method2();
+    //}
+    // interface B: A
+    //{
+    //    void method3();
+    //    void method4();
+    //}
+    //class MyClass:B
+    //{
+    //    public void method1()
+    //    {
+    //        Console.WriteLine("implement method 1");
+    //    }
+    //    public void method2()
+    //    {
+    //        Console.WriteLine("implement method 2");
+    //    }
+    //    public void method3()
+    //    {
+    //        Console.WriteLine("implement method 3");
+    //    }
+    //    public void method4()
+    //    {
+    //        Console.WriteLine("implement method 4");
+    //    }
+    //    public void method5()
+    //    {
+    //        Console.WriteLine("implement method 5");
+    //    }
+
+    //}
+    //class program {
+    //    static void Main() {
+    //        MyClass obj=new MyClass();
+    //        obj.method1();
+    //        obj.method2();
+    //        obj.method3();
+    //        obj.method4();
+    //        obj.method5();
+    //        Console.ReadKey();
+    //    }
+    //}
+
+    //Calculate Area of a rectangale and circle using interface
+
+    //public interface Area
+    //{
+    //    void area(double a,double b);
+    //}
+    //class Rectangle : Area 
+    //{
+    //    public void area(double a, double b) 
+    //    {
+    //        double areaOfRectangle;
+    //        areaOfRectangle = a * b;
+    //        Console.WriteLine("The area of Rectangle:" + areaOfRectangle);
+    //    }
+    //}
+    //class Circle : Area
+    //{
+    //    double PI = 3.14;
+    //    public void area(double a, double b)
+    //    {
+    //        double areaOfCircle;
+    //        areaOfCircle = PI * a * a;
+    //        Console.WriteLine("The area of Circle:" + areaOfCircle);
+    //    }
+    //}
+
+    //class Program
+    //{
+    //    static void Main() 
+    //    {
+    //    Area RectObj = new Rectangle();
+    //         RectObj.area(10,15);
+
+    //    Area CirObj = new Circle();
+    //         CirObj.area(10, 0);
+    //        Console.ReadKey();
+    //    }
+    //}
+
+
+
+
+    #endregion
+
+
+    #region Multiple Inheritance 
+
+    //This is ambiguity Problem
+
+    //Class 1{ Test() { }  }
+    //Class 2{ Test() { }  }
+    //class 3:1,2{ }
+
+    public interface Base1 {
+        void Test();
+        void Show();
     }
-    public class Employee {
-
-        public int id;
-        public string name;
-        public Address address;// Emp HAS-A Address
-
-        public Employee(int id,string name,Address address) {
-            this.id = id;
-            this.name = name;
-            this.address = address;
+    public interface Base2 {
+        void Test();
+        void Show();
+    }
+    class MyClass : Base1, Base2 
+    {
+        public void Test() {
+            Console.WriteLine("Test is Implemented");
         }
-        public void Display() {
-            Console.WriteLine(id+" "+name+" "+ address.RoadNo+" "+address.city+" "+address.state+" "+address.zipCode);
+        public void Show() {
+            Console.WriteLine("Show is Implemented");
         }
     }
-    public class Program {
-        public static void Main(string[] args) {
-            Address a1 = new Address("11","kolkata","wb","704646");
-            Employee e1 = new Employee(1,"Deb", a1);
-            e1.Display();
+
+    class Program {
+        static void Main(string[] args) {
+
+            MyClass obj1 = new MyClass();
+            obj1.Test();
+            obj1.Show();
+
+            MyClass obj2 = new MyClass();
+            obj2.Test();
+            obj2.Show();
+
+            MyClass obj3 = new MyClass();
+            obj3.Test();
+            obj3.Show();
             Console.ReadKey();
         }
     
     
     }
+  
+
+    #endregion
+
 }
