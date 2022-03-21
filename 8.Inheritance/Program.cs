@@ -14,6 +14,7 @@ namespace _8.Inheritance
     //5.Inheritance
     #endregion
 
+    #region Different Type of Inheritance
     //Single Inheritance       base class ->derived class
 
     //Multilevel Inheritance   base class -> derived class -> derived class
@@ -22,7 +23,8 @@ namespace _8.Inheritance
 
     //Hiearchical Inheritance  (baseclass) -> (derived1 class,derived2 class)
 
-    //Hybrid Inheritance
+    //Hybrid Inheritance 
+    #endregion
 
     #region Rules
     //Rule 1:In Inheritance the constracor of the parent class must be accessible to its child class,else the Inheritance will not possible. because when we create the child class object first it goes and call the parent class constractor so that the parent class variable will be init and can comsume them under the child class.
@@ -129,6 +131,7 @@ namespace _8.Inheritance
     //}
     #endregion
 
+    #region TRANSITIVE
     //TRANSITIVE
     //a=b and b=c then a=c
     //person=staff and  staff =Teacher  person =teacher /teacher=person
@@ -159,7 +162,8 @@ namespace _8.Inheritance
     //        Console.ReadKey();
 
     //    }
-    //}
+    //} 
+    #endregion
 
     #region HAS-A
     //public class Address {
@@ -424,5 +428,15 @@ namespace _8.Inheritance
     }
 
     #endregion
+
+
+//    AcessSpecifiers                      Default  private  protected public
+//---------------------------------------------------------------------------
+// 1.inside class                             Y        Y        Y        Y
+// 2.within subclass inside same package      Y        N        Y        Y
+// 3.outside the package                      N        N        N        Y
+// 4.within subclass outside same package     N        N        Y        Y
+
+
 
 }
