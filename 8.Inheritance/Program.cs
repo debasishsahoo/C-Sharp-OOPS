@@ -305,7 +305,6 @@ namespace _8.Inheritance
 
     #endregion
 
-
     #region Multiple Inheritance 
 
     //This is ambiguity Problem
@@ -314,44 +313,107 @@ namespace _8.Inheritance
     //Class 2{ Test() { }  }
     //class 3:1,2{ }
 
-    public interface Base1 {
-        void Test();
-        void Show();
-    }
-    public interface Base2 {
-        void Test();
-        void Show();
-    }
-    class MyClass : Base1, Base2 
+    //public interface Base1 {
+    //    void Test();
+    //    void Show();
+    //}
+    //public interface Base2 {
+    //    void Test();
+    //    void Show();
+    //}
+    //class MyClass : Base1, Base2 
+    //{
+    //    public void Test() {
+    //        Console.WriteLine("Test is Implemented");
+    //    }
+    //    public void Show() {
+    //        Console.WriteLine("Show is Implemented");
+    //    }
+    //}
+    //class Program {
+    //    static void Main(string[] args) {
+
+    //        MyClass obj1 = new MyClass();
+    //        obj1.Test();
+    //        obj1.Show();
+
+    //        MyClass obj2 = new MyClass();
+    //        obj2.Test();
+    //        obj2.Show();
+
+    //        MyClass obj3 = new MyClass();
+    //        obj3.Test();
+    //        obj3.Show();
+    //        Console.ReadKey();
+    //    }
+
+
+    //}
+
+
+    #endregion
+
+    #region Explicit Inteface Implementations
+
+    public interface IBase1
     {
-        public void Test() {
-            Console.WriteLine("Test is Implemented");
+        void Test();
+        void Show();
+    }
+    public interface IBase2
+    {
+        void Test();
+        void Show();
+    }
+    class MyClass : IBase1, IBase2
+    {
+         void IBase1.Test()
+        {
+            Console.WriteLine("Base1 Test is Implemented");
         }
-        public void Show() {
-            Console.WriteLine("Show is Implemented");
+         void IBase1.Show()
+        {
+            Console.WriteLine("Base1 Show is Implemented");
+        }
+        void IBase2.Test()
+        {
+            Console.WriteLine("Base2 Test is Implemented");
+        }
+        void IBase2.Show()
+        {
+            Console.WriteLine("Base2 Show is Implemented");
         }
     }
+    class Program
+    {
+        static void Main(string[] args)
+        {
 
-    class Program {
-        static void Main(string[] args) {
-
-            MyClass obj1 = new MyClass();
+            IBase1 obj1 = new MyClass();
             obj1.Test();
             obj1.Show();
 
-            MyClass obj2 = new MyClass();
+            IBase2 obj2 = new MyClass();
             obj2.Test();
             obj2.Show();
 
-            MyClass obj3 = new MyClass();
-            obj3.Test();
-            obj3.Show();
+            MyClass myClass = new MyClass();
+
+            //myClass.Test();//not possible  X
+
+            //MyClass.Base1.myClass.Test();  X
+
+            ((IBase1)myClass).Test();
+            ((IBase1)myClass).Show();
+
+            ((IBase2)myClass).Test();
+            ((IBase2)myClass).Show();
+
             Console.ReadKey();
         }
-    
-    
+
+
     }
-  
 
     #endregion
 
