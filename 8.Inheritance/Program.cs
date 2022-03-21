@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace _8.Inheritance
 {
+    #region Relationship
+    //1.Association
+    //2.Aggregation
+    //3.Composition
+    //4.Dependency
+    //5.Inheritance
+    #endregion
+
     //Single Inheritance       base class ->derived class
 
     //Multilevel Inheritance   base class -> derived class -> derived class
