@@ -367,75 +367,142 @@ namespace _8.Inheritance
 
     #region Explicit Inteface Implementations
 
-    public interface IBase1
+    //public interface IBase1
+    //{
+    //    void Test();
+    //    void Show();
+    //}
+    //public interface IBase2
+    //{
+    //    void Test();
+    //    void Show();
+    //}
+    //class MyClass : IBase1, IBase2
+    //{
+    //     void IBase1.Test()
+    //    {
+    //        Console.WriteLine("Base1 Test is Implemented");
+    //    }
+    //     void IBase1.Show()
+    //    {
+    //        Console.WriteLine("Base1 Show is Implemented");
+    //    }
+    //    void IBase2.Test()
+    //    {
+    //        Console.WriteLine("Base2 Test is Implemented");
+    //    }
+    //    void IBase2.Show()
+    //    {
+    //        Console.WriteLine("Base2 Show is Implemented");
+    //    }
+    //}
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+
+    //        IBase1 obj1 = new MyClass();
+    //        obj1.Test();
+    //        obj1.Show();
+
+    //        IBase2 obj2 = new MyClass();
+    //        obj2.Test();
+    //        obj2.Show();
+
+    //        MyClass myClass = new MyClass();
+
+    //        //myClass.Test();//not possible  X
+
+    //        //MyClass.Base1.myClass.Test();  X
+
+    //        ((IBase1)myClass).Test();
+    //        ((IBase1)myClass).Show();
+
+    //        ((IBase2)myClass).Test();
+    //        ((IBase2)myClass).Show();
+
+    //        Console.ReadKey();
+    //    }
+
+
+    //}
+
+    #endregion
+
+    #region AcessSpecifiers in Inheritance
+    //    AcessSpecifiers                      Default  private  protected public
+    //---------------------------------------------------------------------------
+    // 1.inside class                             Y        Y        Y        Y
+    // 2.within subclass inside same package      Y        N        Y        Y
+    // 3.outside the package                      N        N        N        Y
+    // 4.within subclass outside same package     N        N        Y        Y 
+    #endregion
+
+    #region Points to Remember
+
+    //point 1
+    //we need use interface keyword.
+    //interface contain properties,methods,delegates,events.
+    //just Declarations no implementations.
+    //interface Istudents 
+    //{
+    //    void info();  // Declarations
+    //    void Marks() { };  //implementations    //Compile time error
+    //}
+
+
+    //point 2
+    //by default iterface memebers are public
+    //don't allow to explicit access Specifiers 
+    //interface Istudents
+    //{
+    //     public void info(); 
+    //}
+
+
+    //point 3
+    //don't allow to contain fields. 
+    //interface Istudents
+    //{
+    //    int id;
+    //    void info();
+    //}
+
+    //point 4
+    //you can not create an object of an interface
+
+    //point 5
+
+    interface IStudent
     {
-        void Test();
-        void Show();
+        void marks();
+        void info();
     }
-    public interface IBase2
+
+    abstract class Student : IStudent
     {
-        void Test();
-        void Show();
+        public void marks() {
+            Console.WriteLine("Implement"); 
+        }
+        abstract public void info();
     }
-    class MyClass : IBase1, IBase2
-    {
-         void IBase1.Test()
-        {
-            Console.WriteLine("Base1 Test is Implemented");
-        }
-         void IBase1.Show()
-        {
-            Console.WriteLine("Base1 Show is Implemented");
-        }
-        void IBase2.Test()
-        {
-            Console.WriteLine("Base2 Test is Implemented");
-        }
-        void IBase2.Show()
-        {
-            Console.WriteLine("Base2 Show is Implemented");
-        }
-    }
-    class Program
-    {
-        static void Main(string[] args)
-        {
 
-            IBase1 obj1 = new MyClass();
-            obj1.Test();
-            obj1.Show();
-
-            IBase2 obj2 = new MyClass();
-            obj2.Test();
-            obj2.Show();
-
-            MyClass myClass = new MyClass();
-
-            //myClass.Test();//not possible  X
-
-            //MyClass.Base1.myClass.Test();  X
-
-            ((IBase1)myClass).Test();
-            ((IBase1)myClass).Show();
-
-            ((IBase2)myClass).Test();
-            ((IBase2)myClass).Show();
-
-            Console.ReadKey();
-        }
+   
 
 
-    }
+
+
+
+
+
+
+
+
+
 
     #endregion
 
 
-//    AcessSpecifiers                      Default  private  protected public
-//---------------------------------------------------------------------------
-// 1.inside class                             Y        Y        Y        Y
-// 2.within subclass inside same package      Y        N        Y        Y
-// 3.outside the package                      N        N        N        Y
-// 4.within subclass outside same package     N        N        Y        Y
 
 
 
