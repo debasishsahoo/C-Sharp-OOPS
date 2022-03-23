@@ -7,23 +7,23 @@ using System.Threading.Tasks;
 namespace _9.AbstractionDetails
 {
 
-    //Rule 1
-    //"must declare a body because it is not marked abstract,extern,or pertial"
+    #region Rules
+    //Rule 1:If a method does not have the body, then it should be declared as abstract using the abstract modifier else it leads to a compile-time error: “must declare a body because it is not marked abstract, extern, or partial”
 
     //public class Ex
     //{
     //    void Abc();
     //}
 
-    //Rule 2
-    //Ex.Abc()' is abstract but it is contained in non-abstract type 'Ex
+    //Rule2: If a class has an abstract method it should be declared as abstract by using the keyword abstract else it leads to a compile-time error: ‘Ex.Abc()’ is abstract but it is contained in non-abstract class ‘Ex‘.
+
     // public class Ex
     //{
     //    public abstract void Abc();
     //}
 
-    //Rule 3
-    //Cannot create an instance of the abstract type or interface 'Ex'
+    //Rule3: If a class is declared as abstract it cannot be instantiated violation leads to compile-time Error: Cannot create an instance of the abstract class or interface ‘Ex’
+
     //public abstract class Ex
     //{
     //    public abstract void Abc();
@@ -35,36 +35,23 @@ namespace _9.AbstractionDetails
     //    }
     //}
 
-    //Rule 4
-    public abstract class Ex
-    {
-        public abstract void Abc1();
-        public abstract void Abc2();
+    //Rule4: The sub-classes of an abstract class should override all the abstract methods or it should be declared as abstract else it leads to the compile-time error:
+    //public abstract class Ex
+    //{
+    //    public abstract void Abc1();
+    //    public abstract void Abc2();
 
-    }
-    public abstract class Sample : Ex
-    {
-        public override void Abc1()
-        {
-            Console.WriteLine("Abc1 Method");
-        }
+    //}
+    //public abstract class Sample : Ex
+    //{
+    //    public override void Abc1()
+    //    {
+    //        Console.WriteLine("Abc1 Method");
+    //    }
+    //}
+    #endregion
 
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    #region Basic Data Abstraction
     //public abstract class MyClass {
     //    public abstract void Calcutale(double x) ;//common
 
@@ -107,7 +94,8 @@ namespace _9.AbstractionDetails
 
     //    }
 
-    //}
+    //} 
+    #endregion
 
 
 }

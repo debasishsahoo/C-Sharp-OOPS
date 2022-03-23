@@ -60,7 +60,12 @@
       "ProjectGuid": "00dd9038-67c0-4edd-9796-5e1bc282fbcc",
       "DisplayName": "8.Inheritance",
       "ColorIndex": 10
+    },
+    "0c5875b4-33a1-4bce-9af9-98e257881649": {
+      "ProjectGuid": "0c5875b4-33a1-4bce-9af9-98e257881649",
+      "DisplayName": "9.AbstractionDetails",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 12
 }
