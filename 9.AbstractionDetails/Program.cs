@@ -118,57 +118,130 @@ namespace _9.AbstractionDetails
     //}
     #endregion
 
-    #region Advanced Data Abstraction
+    #region Advanced Data Abstraction 1
+    //public abstract class Plan
+    //{
+    //    protected double rate;
+    //    public abstract void getRate();
+    //    public void calculations(int unit)
+    //    {
+    //        Console.WriteLine("Bill amount for " + unit + " Unit is");
+    //        Console.WriteLine(rate * unit);
+    //    }
+    //}
+    //class CommercialPlan : Plan
+    //{
+    //    public override void getRate()
+    //    {
+    //        rate = 7.50;
+    //    }
+    //}
+    //class DomesticPlan : Plan
+    //{
+    //    public override void getRate()
+    //    {
+    //        rate = 3.50;
+    //    }
+    //}
+    //class program
+    //{
+    //    static void Main()
+    //    {
+    //        Plan P;
 
-    public abstract class Plan 
+    //        Console.WriteLine("Commercial Connection");
+    //        P = new CommercialPlan();
+    //        P.getRate();
+    //        P.calculations(1500);
+
+    //        Console.WriteLine("Domestic Connection");
+    //        P = new DomesticPlan();
+    //        P.getRate();
+    //        P.calculations(500);
+
+    //        P = new CommercialPlan();
+    //        P.getRate();
+    //        P.calculations(7500);
+
+    //        Console.ReadKey();
+
+
+
+    //    }
+    //}
+    #endregion
+
+    #region Advanced Data Abstraction 2
+    abstract class ClSEmployess 
     {
-        protected double rate;
-        public abstract void getRate();
-        public void calculations(int unit)
+        protected int EmpId, EmpAge;
+        protected string EmpName, EmpAddress;
+        public abstract void GetEmployeeData();
+        public virtual void DisplayEmpData()
         {
-            Console.WriteLine("Bill amount for " + unit + "Unit is");
-            Console.WriteLine(rate * unit);
+            Console.WriteLine("This is Virtual Method");
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("Employee Id is:"+this.EmpId);
+            Console.WriteLine("Employee Name is:"+this.EmpName);
+            Console.WriteLine("Employee Address is:"+this.EmpAddress);
+            Console.WriteLine("Employee Age is:"+this.EmpAge);
         }
-    }
-    class CommercialPlan:Plan
-    {
-        public override void getRate()
+        public ClSEmployess()
         {
-            rate = 7.50;
+            Console.WriteLine("Abstract class Constructor");
         }
+
     }
-    class DomesticPlan : Plan
+    class ClSManager: ClSEmployess
     {
-        public override void getRate()
+        double Bonus, CA;
+        public override void GetEmployeeData() 
         {
-            rate = 3.50;
+            Console.WriteLine("Enter Manager Details:");
+            Console.WriteLine("Enter Manager Id:");
+            EmpId=int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter Manager Name:");
+            EmpName = Console.ReadLine();
+
+            Console.WriteLine("Enter Manager Address:");
+            EmpAddress = Console.ReadLine();
+
+            Console.WriteLine("Enter Manager Age:");
+            EmpAge = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter Manager Bonus:");
+            Bonus = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter Manager CA:");
+            CA = double.Parse(Console.ReadLine());
+
+
         }
-    }
-
-    class program
-    {
-        static void Main() 
+        public override void DisplayEmpData()
         {
-            Plan P;
+            Console.WriteLine("This is Override Method");
+            Console.WriteLine("---------------------------------");
+            Console.WriteLine("Employee Id is:" + this.EmpId);
+            Console.WriteLine("Employee Name is:" + this.EmpName);
+            Console.WriteLine("Employee Address is:" + this.EmpAddress);
+            Console.WriteLine("Employee Age is:" + this.EmpAge);
+            Console.WriteLine("Employee Bonus is:" + this.Bonus);
+            Console.WriteLine("Employee CA is:" + this.CA);
+        }
 
-            Console.WriteLine("Commercial Connection");
-            P = new CommercialPlan();
-            P.getRate();
-            P.calculations(1500);
-
-            Console.WriteLine("Domestic Connection");
-            P = new DomesticPlan();
-            P.getRate();
-            P.calculations(500);
+    }
+    class Program
+    {
+        static void Main()
+        {
+            ClSManager cm = new ClSManager();
+            cm.GetEmployeeData();
+            cm.DisplayEmpData();
             Console.ReadKey();
-
-
-
         }
+        
     }
-
-
-
     #endregion
 
 
@@ -176,7 +249,7 @@ namespace _9.AbstractionDetails
 
 
 
-   
+
 
 
 }
