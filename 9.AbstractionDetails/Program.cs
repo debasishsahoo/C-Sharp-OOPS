@@ -7,6 +7,18 @@ using System.Threading.Tasks;
 namespace _9.AbstractionDetails
 {
 
+    #region Abstract Class
+    //A class that is declared by using the keyword abstract is called an abstract class. An abstract class is a partially implemented class used for implementing some of the operations of an object which are common for all next-level subclasses and the remaining abstract methods to be implemented by the next-level subclasses.So it contains both abstract methods and concrete methods including variables, properties, and indexers.
+
+    //It is always created as a superclass next to the interface in the object inheritance hierarchy for implementing common operations from an interface. An abstract class may or may not have abstract methods.But if a class contains an abstract method then it must be declared as abstract.
+
+    //An abstract class cannot be instantiated directly.It’s compulsory to create/derive a subclass from the abstract class in order to provide the functionality to its abstract functions
+    #endregion
+
+    #region abstract method
+    //A method that does not have a body is called an abstract method.It is declared with the modifier abstract. It contains only a declaration/signature and does not contain the implementation/body/definition of the method.An abstract function should be terminated with a semicolon.Overriding an abstract function is compulsory.
+    #endregion
+
     #region Rules
     //Rule 1:If a method does not have the body, then it should be declared as abstract using the abstract modifier else it leads to a compile-time error: “must declare a body because it is not marked abstract, extern, or partial”
 
@@ -51,40 +63,49 @@ namespace _9.AbstractionDetails
     //}
     #endregion
 
+    #region Points to Remember 
+    //An abstract class can contain both abstract methods and non-abstract (concrete) methods.
+    //It can contain both static and instance variables.
+    //The abstract class cannot be instantiated but its reference can be created.
+    //If any class contains abstract methods then it must be declared by using the keyword abstract.
+    //An abstract class can contain sealed methods but an abstract method or class cannot be declared as sealed.
+    //A subclass of an abstract class can only be instantiated if it implements all of the abstract methods of its superclass.Such classes are called concrete classes to differentiate them from abstract classes.
+    #endregion
+
     #region Basic Data Abstraction
-    //public abstract class MyClass {
-    //    public abstract void Calcutale(double x) ;//common
+    //public abstract class MyClass
+    //{
+    //    public abstract void Calcutale(double x);//common
 
     //}
-    //class Sub1:MyClass 
-    //{
-    //    public override void Calcutale(double x) 
-    //    {
-    //    Console.WriteLine("Square Root is:"+Math.Sqrt(x));
-    //    }
-    //}
-    //public class Sub2:MyClass 
+    //class Sub1 : MyClass
     //{
     //    public override void Calcutale(double x)
     //    {
-    //        Console.WriteLine("Square:" + (x*x));
+    //        Console.WriteLine("Square Root is:" + Math.Sqrt(x));
     //    }
     //}
-    //public class Sub3 : MyClass 
+    //public class Sub2 : MyClass
+    //{
+    //    public override void Calcutale(double x)
+    //    {
+    //        Console.WriteLine("Square:" + (x * x));
+    //    }
+    //}
+    //public class Sub3 : MyClass
     //{
     //    public override void Calcutale(double x)
     //    {
     //        Console.WriteLine("Cube:" + (x * x * x));
     //    }
     //}
-
-    //class Test {
-
-    //static void Main()
+    //class Test
+    //{
+    //    static void Main()
     //    {
-    //        Sub1 obj1=new Sub1();
-    //        Sub2 obj2=new Sub2();
-    //        Sub3 obj3=new Sub3();
+    //        Sub1 obj1 = new Sub1();
+    //        Sub2 obj2 = new Sub2();
+    //        Sub3 obj3 = new Sub3();
 
     //        obj1.Calcutale(4);
     //        obj2.Calcutale(4);
@@ -94,8 +115,68 @@ namespace _9.AbstractionDetails
 
     //    }
 
-    //} 
+    //}
     #endregion
+
+    #region Advanced Data Abstraction
+
+    public abstract class Plan 
+    {
+        protected double rate;
+        public abstract void getRate();
+        public void calculations(int unit)
+        {
+            Console.WriteLine("Bill amount for " + unit + "Unit is");
+            Console.WriteLine(rate * unit);
+        }
+    }
+    class CommercialPlan:Plan
+    {
+        public override void getRate()
+        {
+            rate = 7.50;
+        }
+    }
+    class DomesticPlan : Plan
+    {
+        public override void getRate()
+        {
+            rate = 3.50;
+        }
+    }
+
+    class program
+    {
+        static void Main() 
+        {
+            Plan P;
+
+            Console.WriteLine("Commercial Connection");
+            P = new CommercialPlan();
+            P.getRate();
+            P.calculations(1500);
+
+            Console.WriteLine("Domestic Connection");
+            P = new DomesticPlan();
+            P.getRate();
+            P.calculations(500);
+            Console.ReadKey();
+
+
+
+        }
+    }
+
+
+
+    #endregion
+
+
+
+
+
+
+   
 
 
 }
