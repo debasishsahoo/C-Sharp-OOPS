@@ -244,7 +244,20 @@ namespace _9.AbstractionDetails
     }
     #endregion
 
-
+    #region Questions
+    //When should a class be declared as abstract?
+    //When to use the abstract method?
+    //Why abstract class can not be instantiated?
+    //Who will provide the implementation(body) for abstract methods?
+    //What type of member can we define in an abstract class?
+    //Will abstract class members be created when a subclass object is created?
+    //How can we execute static and non-static concrete members of the abstract class?
+    //Can we declare an abstract method as static?
+    //Can we declare an abstract method as sealed?
+    //Can we declare an abstract method as private?
+    //Can we declare a concrete class as abstract?
+    //What is the need for abstract classes in application development?
+    #endregion
 
 
 

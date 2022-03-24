@@ -1,0 +1,8 @@
+D:\.netprojects\DotNetOOP\10.Polymorphism\obj\Debug\10.Polymorphism.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\10.Polymorphism\obj\Debug\10.Polymorphism.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\10.Polymorphism\obj\Debug\10.Polymorphism.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\10.Polymorphism\bin\Debug\10.Polymorphism.exe.config
+D:\.netprojects\DotNetOOP\10.Polymorphism\bin\Debug\10.Polymorphism.exe
+D:\.netprojects\DotNetOOP\10.Polymorphism\bin\Debug\10.Polymorphism.pdb
+D:\.netprojects\DotNetOOP\10.Polymorphism\obj\Debug\10.Polymorphism.exe
+D:\.netprojects\DotNetOOP\10.Polymorphism\obj\Debug\10.Polymorphism.pdb
