@@ -70,7 +70,12 @@
       "ProjectGuid": "b0e29a69-47a4-4142-a58d-c273b1c256ad",
       "DisplayName": "10.Polymorphism",
       "ColorIndex": 12
+    },
+    "94964577-d07c-4556-a2a4-80b0d037a95f": {
+      "ProjectGuid": "94964577-d07c-4556-a2a4-80b0d037a95f",
+      "DisplayName": "11.PartialInto",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 13
+  "NextColorIndex": 14
 }

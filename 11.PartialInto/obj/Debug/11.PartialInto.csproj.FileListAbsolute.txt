@@ -1,0 +1,8 @@
+D:\.netprojects\DotNetOOP\11.PartialInto\bin\Debug\11.PartialInto.exe.config
+D:\.netprojects\DotNetOOP\11.PartialInto\bin\Debug\11.PartialInto.exe
+D:\.netprojects\DotNetOOP\11.PartialInto\bin\Debug\11.PartialInto.pdb
+D:\.netprojects\DotNetOOP\11.PartialInto\obj\Debug\11.PartialInto.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\11.PartialInto\obj\Debug\11.PartialInto.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\11.PartialInto\obj\Debug\11.PartialInto.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\11.PartialInto\obj\Debug\11.PartialInto.exe
+D:\.netprojects\DotNetOOP\11.PartialInto\obj\Debug\11.PartialInto.pdb
