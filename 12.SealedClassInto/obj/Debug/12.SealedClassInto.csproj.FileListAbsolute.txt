@@ -1,0 +1,8 @@
+D:\.netprojects\DotNetOOP\12.SealedClassInto\bin\Debug\12.SealedClassInto.exe.config
+D:\.netprojects\DotNetOOP\12.SealedClassInto\bin\Debug\12.SealedClassInto.exe
+D:\.netprojects\DotNetOOP\12.SealedClassInto\bin\Debug\12.SealedClassInto.pdb
+D:\.netprojects\DotNetOOP\12.SealedClassInto\obj\Debug\12.SealedClassInto.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\12.SealedClassInto\obj\Debug\12.SealedClassInto.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\12.SealedClassInto\obj\Debug\12.SealedClassInto.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\12.SealedClassInto\obj\Debug\12.SealedClassInto.exe
+D:\.netprojects\DotNetOOP\12.SealedClassInto\obj\Debug\12.SealedClassInto.pdb

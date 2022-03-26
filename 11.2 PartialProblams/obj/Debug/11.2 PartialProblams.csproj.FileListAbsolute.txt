@@ -1,0 +1,7 @@
+D:\.netprojects\DotNetOOP\11.2 PartialProblams\bin\Debug\11.2 PartialProblams.exe.config
+D:\.netprojects\DotNetOOP\11.2 PartialProblams\bin\Debug\11.2 PartialProblams.exe
+D:\.netprojects\DotNetOOP\11.2 PartialProblams\bin\Debug\11.2 PartialProblams.pdb
+D:\.netprojects\DotNetOOP\11.2 PartialProblams\obj\Debug\11.2 PartialProblams.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\11.2 PartialProblams\obj\Debug\11.2 PartialProblams.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\11.2 PartialProblams\obj\Debug\11.2 PartialProblams.exe
+D:\.netprojects\DotNetOOP\11.2 PartialProblams\obj\Debug\11.2 PartialProblams.pdb

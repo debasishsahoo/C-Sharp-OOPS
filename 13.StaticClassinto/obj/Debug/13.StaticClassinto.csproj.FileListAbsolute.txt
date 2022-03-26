@@ -1,0 +1,7 @@
+D:\.netprojects\DotNetOOP\13.StaticClassinto\bin\Debug\13.StaticClassinto.exe.config
+D:\.netprojects\DotNetOOP\13.StaticClassinto\bin\Debug\13.StaticClassinto.exe
+D:\.netprojects\DotNetOOP\13.StaticClassinto\bin\Debug\13.StaticClassinto.pdb
+D:\.netprojects\DotNetOOP\13.StaticClassinto\obj\Debug\13.StaticClassinto.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\13.StaticClassinto\obj\Debug\13.StaticClassinto.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\13.StaticClassinto\obj\Debug\13.StaticClassinto.exe
+D:\.netprojects\DotNetOOP\13.StaticClassinto\obj\Debug\13.StaticClassinto.pdb

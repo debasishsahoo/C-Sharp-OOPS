@@ -18,7 +18,7 @@ namespace _11._1_PartialClassesinto
 
             employee.DisplayName();
             employee.DisplayInfo();
-            employee.DisplayTotalSalary();
+            //employee.DisplayTotalSalary();
             employee.ChangeId();
 
             Console.ReadKey();

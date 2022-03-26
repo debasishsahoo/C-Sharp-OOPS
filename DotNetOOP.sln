@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.1 PartialClassesinto", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11.2 PartialProblams", "11.2 PartialProblams\11.2 PartialProblams.csproj", "{4885E852-09CF-43EB-B4D4-711D45192DBA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.SealedClassInto", "12.SealedClassInto\12.SealedClassInto.csproj", "{B1528DBE-D884-4A74-897B-32E7852B830E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.StaticClassinto", "13.StaticClassinto\13.StaticClassinto.csproj", "{1E5171DC-CFDE-4899-90EC-40009235CD09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{4885E852-09CF-43EB-B4D4-711D45192DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4885E852-09CF-43EB-B4D4-711D45192DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4885E852-09CF-43EB-B4D4-711D45192DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1528DBE-D884-4A74-897B-32E7852B830E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1528DBE-D884-4A74-897B-32E7852B830E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1528DBE-D884-4A74-897B-32E7852B830E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1528DBE-D884-4A74-897B-32E7852B830E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E5171DC-CFDE-4899-90EC-40009235CD09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E5171DC-CFDE-4899-90EC-40009235CD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E5171DC-CFDE-4899-90EC-40009235CD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E5171DC-CFDE-4899-90EC-40009235CD09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

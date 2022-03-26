@@ -8,6 +8,7 @@ namespace _11._1_PartialClassesinto
 {
     public partial class PartialEmp
     {
+        partial void DisplayTotalSalary();
         private string _firstname;
         public void DisplayName()
         {
@@ -19,10 +20,11 @@ namespace _11._1_PartialClassesinto
             Console.WriteLine(@"ID is {0}", _id);
             Console.WriteLine(@"First Name is {0}", _firstname);
             Console.WriteLine(@"Last Name is {0}", _lastname);
-            Console.WriteLine(@"Salary is {0}", _salary);
+            Console.WriteLine(@"Old-Salary is {0}", _salary);
 
+            DisplayTotalSalary();
         }
+      
 
-         partial void DisplayTotalSalary();
     }
 }

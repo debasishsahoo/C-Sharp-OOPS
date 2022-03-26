@@ -37,10 +37,10 @@ namespace _3.OppIntro
             S2.Display();
 
             //different typee of class
-            //Abstract Class
-            //Partial Class
+            //Abstract Class  done
+            //Partial Class   done
             //Concrete Class
-            //Sealed Class
+            //Sealed Class    done
             //Staic Class
 
 

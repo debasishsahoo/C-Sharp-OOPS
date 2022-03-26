@@ -9,7 +9,6 @@ namespace _11._1_PartialClassesinto
     public partial class PartialEmp
     {
         private int _id;
-        //private string _firstname;
         private string _lastname;
         private double _salary;
 
