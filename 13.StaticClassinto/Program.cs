@@ -33,54 +33,55 @@ namespace _13.StaticClassinto
     //    }
     //}
 
-    class Student
-    {   // non Static data Member
-        public string StudentName;
-        public string Course;
+    //class Student
+    //{   // non Static data Member
+    //    public string StudentName;
+    //    public string Course;
 
-        //Non Static Method
-        public void SetStudentDetails(string SN,string C)
-        {
-            StudentName=SN;
-            Course=C;
-        }
-        public void DisplayStudentDetails()
-        {
-             Console.WriteLine(StudentName+"-"+Course);
-        }
+    //    //Non Static Method
+    //    public void SetStudentDetails(string SN,string C)
+    //    {
+    //        StudentName=SN;
+    //        Course=C;
+    //    }
+    //    public void DisplayStudentDetails()
+    //    {
+    //         Console.WriteLine(StudentName+"-"+Course);
+    //    }
 
 
-        //Static data Member
-        public static string CollegeName="ABC";
-        public static string CollegeAddres= "Kolkata";
-        //Static Method
-        public static void CollegeDetails() 
-        {
-            Console.WriteLine(CollegeName);
-            Console.WriteLine(CollegeAddres);
+    //    //Static data Member
+    //    public static string CollegeName="ABC";
+    //    public static string CollegeAddres= "Kolkata";
+    //    //Static Method
+    //    public static void CollegeDetails() 
+    //    {
+    //        Console.WriteLine(CollegeName);
+    //        Console.WriteLine(CollegeAddres);
 
-        }
+    //    }
 
-    }
+    //}
+    //class Program {
 
-    class Program {
+    //    static void Main() {
 
-        static void Main() {
+    //        Student.CollegeDetails();
 
-            Student.CollegeDetails();
+    //        //Student.DisplayStudentDetails();
+    //        Student student1 = new Student();
+    //        Student student2 = new Student();
 
-            //Student.DisplayStudentDetails();
-            Student student1 = new Student();
-            Student student2 = new Student();
+    //        student1.SetStudentDetails("Abir", "Btech");
+    //        student2.SetStudentDetails("Deb", "Btech");
 
-            student1.SetStudentDetails("Abir", "Btech");
-            student2.SetStudentDetails("Deb", "Btech");
+    //        student1.DisplayStudentDetails();
+    //        student2.DisplayStudentDetails();
+    //        Console.ReadKey();
+    //    }
+    //}
 
-            student1.DisplayStudentDetails();
-            student2.DisplayStudentDetails();
-            Console.ReadKey();
-        }
-    }
+
 
 
 
