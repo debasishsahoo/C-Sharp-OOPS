@@ -81,6 +81,17 @@ namespace _13.StaticClassinto
     //    }
     //}
 
+    class Program 
+    {
+    
+    static void Main()
+    {
+       Customer customer = new Customer();
+       CountryMaster countryMaster = new CountryMaster();
+    }
+    
+    }
+
 
 
 

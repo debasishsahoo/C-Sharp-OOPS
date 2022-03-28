@@ -10,20 +10,33 @@ namespace _13.StaticClassinto
     {
         public string CustomerCode { get; set; }    
         public string CustomerName { get; set; }
+
         private string MachinName = "";
-        private bool IsEmpty(string value)
+
+        public Customer()
         {
-        if(value.Length>0)
-            {
-                return true;
-            }
-        return false;
-        
+
+            MachinName= CommonTask.GetComputerName();
         }
+
+
+
+
+
+        //private bool IsEmpty(string value)
+        //{
+        //if(value.Length>0)
+        //    {
+        //        return true;
+        //    }
+        //return false;
+        
+        //}
 
         public void Insert() 
         {
-            if (IsEmpty(CustomerCode) && IsEmpty(CustomerName)) { }
+
+  if (!CommonTask.IsEmpty(CustomerCode) && !CommonTask.IsEmpty(CustomerName)) { }
         }
 
 

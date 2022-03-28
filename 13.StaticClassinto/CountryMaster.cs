@@ -14,13 +14,15 @@ namespace _13.StaticClassinto
         { 
             get
             {
-                return System.Environment.MachineName;
-            
+                return CommonTask.GetComputerName();    
             } 
-        
         }
 
-        public void Insert() { }
+        public void Insert()
+        {
+   if (!CommonTask.IsEmpty(CountryCode) && !CommonTask.IsEmpty(CountryName)) { }
+
+        }
 
     }
 }

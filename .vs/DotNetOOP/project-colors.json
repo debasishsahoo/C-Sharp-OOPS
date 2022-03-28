@@ -85,7 +85,17 @@
       "ProjectGuid": "4885e852-09cf-43eb-b4d4-711d45192dba",
       "DisplayName": "11.2 PartialProblams",
       "ColorIndex": 15
+    },
+    "b1528dbe-d884-4a74-897b-32e7852b830e": {
+      "ProjectGuid": "b1528dbe-d884-4a74-897b-32e7852b830e",
+      "DisplayName": "12.SealedClassInto",
+      "ColorIndex": 0
+    },
+    "1e5171dc-cfde-4899-90ec-40009235cd09": {
+      "ProjectGuid": "1e5171dc-cfde-4899-90ec-40009235cd09",
+      "DisplayName": "13.StaticClassinto",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 2
 }
