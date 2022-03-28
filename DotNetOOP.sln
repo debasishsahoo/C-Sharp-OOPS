@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.SealedClassInto", "12.Se
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13.StaticClassinto", "13.StaticClassinto\13.StaticClassinto.csproj", "{1E5171DC-CFDE-4899-90EC-40009235CD09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.ExtensionsInto", "14.ExtensionsInto\14.ExtensionsInto.csproj", "{9CCB6728-F159-4550-B30E-DE3584151F63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{1E5171DC-CFDE-4899-90EC-40009235CD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E5171DC-CFDE-4899-90EC-40009235CD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E5171DC-CFDE-4899-90EC-40009235CD09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CCB6728-F159-4550-B30E-DE3584151F63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CCB6728-F159-4550-B30E-DE3584151F63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CCB6728-F159-4550-B30E-DE3584151F63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CCB6728-F159-4550-B30E-DE3584151F63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

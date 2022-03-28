@@ -1,0 +1,7 @@
+D:\.netprojects\DotNetOOP\14.ExtensionsInto\bin\Debug\14.ExtensionsInto.exe.config
+D:\.netprojects\DotNetOOP\14.ExtensionsInto\bin\Debug\14.ExtensionsInto.exe
+D:\.netprojects\DotNetOOP\14.ExtensionsInto\bin\Debug\14.ExtensionsInto.pdb
+D:\.netprojects\DotNetOOP\14.ExtensionsInto\obj\Debug\14.ExtensionsInto.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\14.ExtensionsInto\obj\Debug\14.ExtensionsInto.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\14.ExtensionsInto\obj\Debug\14.ExtensionsInto.exe
+D:\.netprojects\DotNetOOP\14.ExtensionsInto\obj\Debug\14.ExtensionsInto.pdb
