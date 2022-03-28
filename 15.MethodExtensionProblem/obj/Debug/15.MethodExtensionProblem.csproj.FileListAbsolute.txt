@@ -1,0 +1,8 @@
+D:\.netprojects\DotNetOOP\15.MethodExtensionProblem\bin\Debug\15.MethodExtensionProblem.exe.config
+D:\.netprojects\DotNetOOP\15.MethodExtensionProblem\bin\Debug\15.MethodExtensionProblem.exe
+D:\.netprojects\DotNetOOP\15.MethodExtensionProblem\bin\Debug\15.MethodExtensionProblem.pdb
+D:\.netprojects\DotNetOOP\15.MethodExtensionProblem\obj\Debug\15.MethodExtensionProblem.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\15.MethodExtensionProblem\obj\Debug\15.MethodExtensionProblem.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\15.MethodExtensionProblem\obj\Debug\15.MethodExtensionProblem.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\15.MethodExtensionProblem\obj\Debug\15.MethodExtensionProblem.exe
+D:\.netprojects\DotNetOOP\15.MethodExtensionProblem\obj\Debug\15.MethodExtensionProblem.pdb
