@@ -1,0 +1,8 @@
+D:\.netprojects\DotNetOOP\17.PropertiesInto\bin\Debug\17.PropertiesInto.exe.config
+D:\.netprojects\DotNetOOP\17.PropertiesInto\bin\Debug\17.PropertiesInto.exe
+D:\.netprojects\DotNetOOP\17.PropertiesInto\bin\Debug\17.PropertiesInto.pdb
+D:\.netprojects\DotNetOOP\17.PropertiesInto\obj\Debug\17.PropertiesInto.csproj.AssemblyReference.cache
+D:\.netprojects\DotNetOOP\17.PropertiesInto\obj\Debug\17.PropertiesInto.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\17.PropertiesInto\obj\Debug\17.PropertiesInto.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\17.PropertiesInto\obj\Debug\17.PropertiesInto.exe
+D:\.netprojects\DotNetOOP\17.PropertiesInto\obj\Debug\17.PropertiesInto.pdb
