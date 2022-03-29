@@ -95,7 +95,22 @@
       "ProjectGuid": "1e5171dc-cfde-4899-90ec-40009235cd09",
       "DisplayName": "13.StaticClassinto",
       "ColorIndex": 1
+    },
+    "9ccb6728-f159-4550-b30e-de3584151f63": {
+      "ProjectGuid": "9ccb6728-f159-4550-b30e-de3584151f63",
+      "DisplayName": "14.ExtensionsInto",
+      "ColorIndex": 2
+    },
+    "b1d2d24a-3509-4759-8fd4-513018f5c1ce": {
+      "ProjectGuid": "b1d2d24a-3509-4759-8fd4-513018f5c1ce",
+      "DisplayName": "15.MethodExtensionProblem",
+      "ColorIndex": 3
+    },
+    "ece897b8-6bca-43d5-be1c-ee521682e7a5": {
+      "ProjectGuid": "ece897b8-6bca-43d5-be1c-ee521682e7a5",
+      "DisplayName": "16.Const_ReadOnly",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 5
 }

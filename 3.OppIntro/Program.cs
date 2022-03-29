@@ -39,9 +39,9 @@ namespace _3.OppIntro
             //different typee of class
             //Abstract Class  done
             //Partial Class   done
-            //Concrete Class
+            //Concrete Class              done
             //Sealed Class    done
-            //Staic Class
+            //Staic Class     done
 
 
 

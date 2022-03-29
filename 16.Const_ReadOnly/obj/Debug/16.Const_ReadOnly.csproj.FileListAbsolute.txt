@@ -1,0 +1,7 @@
+D:\.netprojects\DotNetOOP\16.Const_ReadOnly\bin\Debug\16.Const_ReadOnly.exe.config
+D:\.netprojects\DotNetOOP\16.Const_ReadOnly\bin\Debug\16.Const_ReadOnly.exe
+D:\.netprojects\DotNetOOP\16.Const_ReadOnly\bin\Debug\16.Const_ReadOnly.pdb
+D:\.netprojects\DotNetOOP\16.Const_ReadOnly\obj\Debug\16.Const_ReadOnly.csproj.SuggestedBindingRedirects.cache
+D:\.netprojects\DotNetOOP\16.Const_ReadOnly\obj\Debug\16.Const_ReadOnly.csproj.CoreCompileInputs.cache
+D:\.netprojects\DotNetOOP\16.Const_ReadOnly\obj\Debug\16.Const_ReadOnly.exe
+D:\.netprojects\DotNetOOP\16.Const_ReadOnly\obj\Debug\16.Const_ReadOnly.pdb
